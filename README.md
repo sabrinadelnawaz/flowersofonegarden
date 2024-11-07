@@ -1,6 +1,6 @@
 # flowersofonegarden
 
-**General Info**
+**General Info:** 
  The "Flowers of One Garden" animation project aims to visually represent themes of unity and diversity, using different types of flowers to symbolize various cultures, identities, and perspectives coexisting in a shared space. By creating an animated visual metaphor, this project attempts to address a subtle yet significant social issue: fostering a sense of inclusivity and appreciation for diversity. Through simple yet expressive design elements, it encourages viewers to reflect on the beauty of diversity, emphasizing that every "flower" (person) adds unique value to the "garden" (community).
  
  The purpose of this project is both artistic and educational. 
