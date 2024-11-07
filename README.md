@@ -16,6 +16,11 @@ Features
 - Clouds moving across the sky
  
 Screenshots
+<img width="1470" alt="Screen Shot 2024-11-07 at 2 27 33 pm" src="https://github.com/user-attachments/assets/d3311781-9a44-4ab9-a6b9-73536503f58f">
+<img width="1470" alt="Screen Shot 2024-11-07 at 2 27 57 pm" src="https://github.com/user-attachments/assets/4be944ca-c17d-48e0-96f4-e50fd1e99c33">
+<img width="1470" alt="Screen Shot 2024-11-07 at 2 28 29 pm" src="https://github.com/user-attachments/assets/84edf51d-dca4-4e83-aa1e-f2fb038eafe4">
+<img width="801" alt="Screen Shot 2024-11-07 at 2 28 50 pm" src="https://github.com/user-attachments/assets/5c43b315-ab6b-411b-9ae0-2616d872d4d4">
+
 
 Setup
 - If using Processing, open the .pde file within the Processing IDE, ensuring Python mode is enabled.
@@ -23,25 +28,15 @@ Setup
   
 Usage
 - To simply run the animation without making modifications: python main.py
-- To customise flowers colour and size:
-  flowers = [
-    {'x': 50, 'y': 400, 'size': 11, 'growth': 0.1, 'color': color(255, 182, 193)},  # Light pink
-    {'x': 100, 'y': 400, 'size': 11, 'growth': 0.15, 'color': color(249, 250, 68)},  # Yellow
-    {'x': 150, 'y': 400, 'size': 11, 'growth': 0.2, 'color': color(232, 67, 49)},    # Red
-    # Additional flowers...
-]
-
-    To change a flower’s color, adjust the color parameter using RGB values:
-      # Example: Changing light pink to pastel purple
-          flowers[0]['color'] = color(180, 150, 255)
-
-
-
-bash
-Copy code
+- To change a flower’s color, adjust the color parameter using RGB values:
+    # Example: Changing light pink to pastel purple
+      flowers[0]['color'] = color(180, 150, 255)
+- To adjust a flower’s growth speed, change the growth value:
+  # Example: Making the flower bloom more slowly
+      flowers[0]['growth'] = 0.05
+- To change the background color:
+  # Changing background to sunset orange
+      background(255, 165, 0)
 
 Project Status
 - Complete
-Room for Improvement
-Acknowledgements
-Contact
